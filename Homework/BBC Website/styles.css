@@ -12,11 +12,14 @@ body {
 }
 
 .welcome {
-	margin: 10px;
+	margin: 0px 10px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .top {
-	height: 100%;
-	width: 50%;
 	margin: 10px;
+}
+.mid_east {
+	height: 100%;
 }
