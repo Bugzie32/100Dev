@@ -19,7 +19,20 @@ body {
 
 .top {
 	margin: 10px;
+	height: 100vh;
 }
-.mid_east {
-	height: 100%;
+.mid_east img {
+	height: 50%;
+	width: 50%;
+}
+.can_usa {
+	background-color: yellow;
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+}
+
+.item img {
+	height: 200px;
+	width: 400px;
 }
