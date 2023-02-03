@@ -10,6 +10,10 @@ body {
 	height: 100vh;
 	box-sizing: border-box;
 }
+ul {
+	display: flex;
+	justify-content: space-evenly;
+}
 
 .welcome {
 	margin: 0px 10px;
@@ -19,10 +23,23 @@ body {
 
 .top {
 	margin: 10px;
+	display: flex;
 }
 .mid_east img {
 	height: 50%;
-	width: 50%;
+	width: 100%;
+}
+.mid_east_text {
+	position: relative;
+}
+
+.mid_east_text h1 {
+	position: absolute;
+	top: -100px;
+	left: 0;
+	width: 100%;
+	margin: 0 auto;
+	height: 50px;
 }
 .can_usa {
 	background-color: yellow;
