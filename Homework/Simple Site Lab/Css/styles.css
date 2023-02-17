@@ -9,12 +9,18 @@ body {
 }
 
 main {
+	padding: 20px;
 	margin: 0 auto;
 	background-color: #87ceeb;
 	width: 876px;
 	height: 876px;
 }
 
+header {
+	text-align: center;
+}
+
 img {
 	width: 200px;
+	float: right;
 }
