@@ -20,7 +20,17 @@ header {
 	text-align: center;
 }
 
+h1,
+h2,
+p {
+	color: white;
+}
+
 img {
 	width: 200px;
 	float: right;
+}
+
+footer {
+	text-align: center;
 }
