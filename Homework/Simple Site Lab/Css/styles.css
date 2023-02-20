@@ -47,7 +47,32 @@ a {
 	color: #4bcc98;
 }
 
+main {
+	position: relative;
+}
+
 img {
-	width: 200px;
+	width: 220px;
 	float: right;
+	padding-top: 90px;
+}
+
+h2 {
+	color: white;
+	padding: 25px 0;
+	font-size: 30px;
+}
+
+p {
+	color: white;
+	font-size: 20px;
+	line-height: 140%;
+}
+
+span {
+	color: #818180;
+}
+
+footer {
+	text-align: center;
 }
