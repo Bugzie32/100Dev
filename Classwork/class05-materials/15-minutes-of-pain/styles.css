@@ -1,0 +1,24 @@
+body {
+	height: 100vh;
+}
+
+header {
+	width: 100%;
+	border: gray solid 5px;
+	height: 100px;
+}
+
+#s1,
+#s2,
+#s3 {
+	width: 33.333%;
+	border: gray solid 2px;
+}
+
+#s1 {
+	float: left;
+}
+
+#s3 {
+	float: right;
+}
