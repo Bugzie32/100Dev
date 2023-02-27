@@ -19,3 +19,9 @@ section {
 	border: 3px solid black;
 	float: left;
 }
+
+@media screen and (max-width: 800px) {
+	section {
+		background: blue;
+	}
+}
