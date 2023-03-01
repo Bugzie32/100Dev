@@ -20,8 +20,20 @@ section {
 	float: left;
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
 	section {
 		background: blue;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	footer {
+		background-color: green;
+	}
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+	section {
+		background-color: coral;
 	}
 }
